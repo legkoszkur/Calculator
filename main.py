@@ -104,7 +104,7 @@ def clean_buttons(ct):
                 main_screen.set(operator)
                 auxiliary_screen.set('')
 
-def functions_buttons(ans):#todo trzeba te funkcje uzbroić w komunikat to large
+def functions_buttons(ans):
     global operator
     if len(operator) != 0:
         if operator[-1] in basic_symbols:
